@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Search from "./components/Search";
 
 const App = () => {
-  const [searchTerm, setSetsearchTerm] = useState(initialState);
+  const [searchTerm, setSetsearchTerm] = useState("");
   return (
     <main>
       <div className="pattern"/>
